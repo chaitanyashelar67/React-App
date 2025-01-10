@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import "./newArrivals.css"
 
 const NewArrivals = () => {
-  const[products, getProduct] =useState([]);
+  const[products, setProduct] =useState([]);
 
   async function getProducts() {
     try {
